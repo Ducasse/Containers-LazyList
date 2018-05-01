@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "tak 6/6/2009 23:47",
+	"super" : "CTList",
+	"category" : "Containers-LazyList",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Nil"
+	],
+	"instvars" : [
+		"collection",
+		"position",
+		"successor",
+		"delay"
+	],
+	"name" : "CTListIterator",
+	"type" : "normal"
+}

@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "StephaneDucasse 1/13/2017 11:45",
+	"super" : "CTList",
+	"category" : "Containers-LazyList",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Nil"
+	],
+	"instvars" : [
+		"head",
+		"tail",
+		"delay"
+	],
+	"name" : "CTLazyList",
+	"type" : "normal"
+}

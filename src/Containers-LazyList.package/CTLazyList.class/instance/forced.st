@@ -1,0 +1,3 @@
+accessing
+forced
+	^ delay isNil

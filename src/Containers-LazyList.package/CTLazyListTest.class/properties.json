@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "tak 6/1/2009 11:03",
+	"super" : "TestCase",
+	"category" : "Containers-LazyList",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CTLazyListTest",
+	"type" : "normal"
+}

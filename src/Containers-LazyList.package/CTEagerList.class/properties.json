@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "tak 6/6/2009 23:45",
+	"super" : "CTList",
+	"category" : "Containers-LazyList",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Nil"
+	],
+	"instvars" : [
+		"head",
+		"tail"
+	],
+	"name" : "CTEagerList",
+	"type" : "normal"
+}

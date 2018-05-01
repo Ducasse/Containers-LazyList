@@ -1,0 +1,1 @@
+I am abstract class for functional lazy / eager collection.
