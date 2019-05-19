@@ -1,1 +1,0 @@
-self buildSuite run
