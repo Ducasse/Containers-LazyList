@@ -1,10 +1,12 @@
 "
 I am abstract class for functional lazy / eager collection.
+
+It is unclear if I should be a subclass of Collection since I do not support certain API such as add: 
 "
 Class {
 	#name : #CTList,
 	#superclass : #Collection,
-	#category : 'Containers-LazyList'
+	#category : #'Containers-LazyList'
 }
 
 { #category : #examples }
@@ -135,16 +137,6 @@ CTList >> forced [
 { #category : #testing }
 CTList >> hash [
 	^ self identityHash
-]
-
-{ #category : #enumerating }
-CTList >> inform [
-	self
-		do: [:e | (PopUpMenu
-					confirm: e printString
-					trueChoice: 'next'
-					falseChoice: 'cancel')
-				ifFalse: [^ self]]
 ]
 
 { #category : #testing }

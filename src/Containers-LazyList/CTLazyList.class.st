@@ -185,19 +185,6 @@ CTLazyList >> delay [
 		ifNotNil: [delay]
 ]
 
-{ #category : #debugging }
-CTLazyList >> explorerContents [
-	self isEmpty ifTrue: [ ^#() ].
-	^ {ObjectExplorerWrapper
-			with: self head
-			name: 'head'
-			model: self.
-		ObjectExplorerWrapper
-			with: self tail
-			name: 'tail'
-			model: self}
-]
-
 { #category : #enumerating }
 CTLazyList >> filter: aBlock [ 
 	"(self withAll: #(1 2 3 4 5)) filter: [ :e | e odd ]"

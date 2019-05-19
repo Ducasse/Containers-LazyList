@@ -138,19 +138,6 @@ CTListIterator >> delay [
 		ifNotNil: [delay]
 ]
 
-{ #category : #debugging }
-CTListIterator >> explorerContents [
-	self isEmpty ifTrue: [ ^#() ].
-	^ {ObjectExplorerWrapper
-			with: self span
-			name: 'span'
-			model: self.
-		ObjectExplorerWrapper
-			with: self successor
-			name: 'successor'
-			model: self}
-]
-
 { #category : #enumerating }
 CTListIterator >> filter: aBlock [ 
 	"(self repeat: #(1 2 3 4 5)) filter: [ :e | e odd ]"
